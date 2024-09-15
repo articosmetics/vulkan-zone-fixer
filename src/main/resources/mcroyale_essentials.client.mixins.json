@@ -1,0 +1,18 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "bramcraft.net.mcroyale_essentials.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "DrawContextMixin",
+    "InGameHudMixin",
+    "ItemEntityRenderStateMixin",
+    "ItemEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

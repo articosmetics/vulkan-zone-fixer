@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gg.lode.barriercompat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "client": [
+    "CloudDepthMixin",
+    "ItemDisplayBorderScopeMixin",
+    "ItemDisplayRenderStateMixin",
+    "BorderReplayHostMixin",
+    "DeferredBorderSubmitMixin",
+    "DeferredFrameResetMixin",
+    "TranslucentReplayMixin",
+    "LevelTargetsAccessor"
+  ]
+}

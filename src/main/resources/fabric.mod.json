@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "vulkanzonefixer",
+  "version": "${version}",
+  "name": "Vulkan Zone Fixer",
+  "description": "Restores server border/zone rendering and resource pack GUI features (such as No Dark Inventory) when using VulkanMod.",
+  "authors": [
+    "Wnderin"
+  ],
+  "contact": {
+    "sources": "https://github.com/articosmetics"
+  },
+  "license": "MIT",
+  "icon": "assets/vulkanzonefixer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.wnderin.vulkanzonefixer.VulkanZoneFixer",
+      "bramcraft.net.mcroyale_essentials.client.Mcroyale_essentialsClient",
+      "gg.lode.barriercompat.BarrierCompatibilityClient"
+    ],
+    "modmenu": [
+      "bramcraft.net.mcroyale_essentials.client.modmenu.McroyaleEssentialsModMenu"
+    ]
+  },
+  "mixins": [
+    "vulkanzonefixer.mixins.json",
+    "mcroyale_essentials.mixins.json",
+    {
+      "config": "mcroyale_essentials.client.mixins.json",
+      "environment": "client"
+    },
+    {
+      "config": "barrier-compatibility.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*"
+  },
+  "suggests": {
+    "vulkanmod": "*"
+  }
+}

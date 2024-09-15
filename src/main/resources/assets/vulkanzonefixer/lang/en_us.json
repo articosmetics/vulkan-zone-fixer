@@ -1,0 +1,18 @@
+{
+  "key.vulkanzonefixer.config": "Open McRoyale Essentials Config",
+  "category.vulkanzonefixer": "McRoyale / Vulkan Zone Fixer",
+  "mcroyale_essentials.config.title": "McRoyale Essentials",
+  "mcroyale_essentials.config.master": "Enable modules",
+  "mcroyale_essentials.config.player_heads": "Player head backgrounds",
+  "mcroyale_essentials.config.player_head_color": "Head color",
+  "mcroyale_essentials.config.player_head_alpha": "Head opacity: %s%%",
+  "mcroyale_essentials.config.reset_head_color": "Reset head color",
+  "mcroyale_essentials.config.head_counter": "Head counter",
+  "mcroyale_essentials.config.head_counter_position": "Head counter position",
+  "mcroyale_essentials.config.head_counter_position_title": "Position Select",
+  "mcroyale_essentials.config.head_counter_position_click": "Click somewhere on the screen to change the element's position.",
+  "mcroyale_essentials.config.head_counter_position_arrows": "Press the arrow keys to precisely adjust the element's position.",
+  "mcroyale_essentials.config.default": "Default",
+  "mcroyale_essentials.config.dropped_totems": "Bigger dropped totems",
+  "mcroyale_essentials.config.totem_scale": "Totems: %s"
+}

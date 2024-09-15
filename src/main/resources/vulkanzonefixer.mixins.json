@@ -1,0 +1,27 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "net.wnderin.vulkanzonefixer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ScreenMixin",
+    "DrawContextMixin",
+    "MinecraftClientMixin",
+    "BalmCompatibilityMixin",
+    "NVGRendererMixin",
+    "NanoVGGLConfigMixin",
+    "NVGImageRendererMixin",
+    "DropdownClickGuiMixin",
+    "CategoryPanelMixin",
+    "CwbCompatibilityMixin",
+    "CwbFramebufferUtilMixin",
+    "VulkanSwapChainSafetyMixin",
+    "VulkanWindowMixin",
+    "GpuTextureMixin",
+    "BossBarHudMixin",
+    "SimpleBlockOverlayFixMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
